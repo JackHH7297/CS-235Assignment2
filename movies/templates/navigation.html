@@ -1,0 +1,22 @@
+<nav id="nav">
+  <img id="logo" src="{{ url_for('static', filename='covid-19.png') }}" />
+
+
+  <h2 id="nav-header">
+    Hello, Jack
+  </h2>
+
+    <a class="btn-nav" href="{{ url_for('home_bp.home') }}">Home</a>
+
+  <div>
+    <h3>
+      <a class="btn-nav" href="{{ url_for('movies_bp.movie_by_rank') }}">
+        Browse by rank
+      </a>
+    </h3>
+  </div>
+
+  <div id="nav-footer">
+    <p>Jack Huang CS-235 AS2</p>
+  </div>
+</nav>
